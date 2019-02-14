@@ -55,7 +55,7 @@ int main(int argc, char **argv){
     int c, count = 0, top;
     Stack *stack;
     stack = stack_init();
-printf("ok");
+
     while((c=getc(fp)) != EOF){
         switch(c){
             case '>':
